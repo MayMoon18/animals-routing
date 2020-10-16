@@ -1,0 +1,9 @@
+<h1>Cats</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col" *ngFor="let cat of animalsCats">
+			<app-card [imageUrl]="cat.imageUrl" [description]="cat.description"></app-card>
+		</div>
+  </div>
+</div>
